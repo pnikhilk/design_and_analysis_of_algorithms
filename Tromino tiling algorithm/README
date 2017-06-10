@@ -1,0 +1,7 @@
+Implementation of the tromino tiling algorithm. Your program should take an input positive integer k and the position of the hole as the Linux command line and generate a 2^k * 2^k.
+ board.
+Compilation:
+gcc -o tromino.out tromino.c
+
+Running:
+./tromino.out <k> <hole position in row> <hole position in column>
