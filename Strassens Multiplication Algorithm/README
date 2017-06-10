@@ -1,0 +1,8 @@
+The program takes an input variable n > 0 in the Linux command line to generate two n*n random float matrices, A and B, and compute A * B using the Strassen’s matrix multiplication algorithm for the following two cases. To generate A and B, random float numbers that range between -5.0 and 5.0 are generated.
+Also standard multiplication is impleneted to compare the results.
+
+Compilation:
+gcc -o strassen.out strassen.c
+
+Running:
+./strassen.out <n>
